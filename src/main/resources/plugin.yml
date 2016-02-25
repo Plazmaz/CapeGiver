@@ -1,0 +1,9 @@
+name: CapeGiver
+version: 1.0.0
+main: me.plazmaz.bukkit.capegiver.CapeGiver
+depend: [ProtocolLib]
+commands:
+    cape:
+        description: Give yourself a cape!
+        usage: /cape <year>
+        permission: capes.use
